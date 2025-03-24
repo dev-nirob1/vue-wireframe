@@ -7,12 +7,9 @@ const props = defineProps({
 })
 </script>
 <template>
-    <img :src="image" alt="">
+    <img class="height-full width-full" :src="image" alt="banner image">
 </template>
 
 <style scoped>
-img{
-  display: block;
-  width: 100%;
-}
+
 </style>

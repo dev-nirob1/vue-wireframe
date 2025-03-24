@@ -1,10 +1,10 @@
 <script setup>
-import HomeView from './views/HomeView.vue';
+import Home from './zems/front/pages/Home.vue';
 
 </script>
 
 <template>
-  <HomeView />
+  <Home />
 </template>
 
 <style scoped></style>

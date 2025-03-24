@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Paragraph from '../common/paragraph.vue';
-import SubTitle from '../common/SubTitle.vue';
-import Title from '../common/Title.vue';
+import Paragraph from '../element/Paragraph.vue';
+import SubTitle from '../element/SubTitle.vue';
+import Title from '../element/Title.vue';
 
 </script>
 
