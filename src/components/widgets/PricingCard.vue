@@ -1,6 +1,5 @@
 <script setup>
 import ListItem from '../element/ListItem.vue';
-
 </script>
 
 <template>

@@ -4,6 +4,7 @@ import Banner from '@/components/Section/Banner.vue';
 import Gallery from '@/components/Section/Gallery.vue';
 import Impact from '@/components/Section/Impact.vue';
 import Pricing from '@/components/Section/Pricing.vue';
+import Testimonials from '@/components/Section/Testimonials.vue';
 
 </script>
 
@@ -14,5 +15,6 @@ import Pricing from '@/components/Section/Pricing.vue';
         <Impact/>
         <Gallery/>
         <Pricing/>
+        <Testimonials/>
     </main>
 </template>
