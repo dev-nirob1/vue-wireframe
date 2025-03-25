@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import BaseButton from '../element/BaseButton.vue';
 import InputField from '../element/InputField.vue';
 import Paragraph from '../element/Paragraph.vue';
