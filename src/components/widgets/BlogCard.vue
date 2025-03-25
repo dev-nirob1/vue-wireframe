@@ -1,16 +1,17 @@
 <script setup>
 import BaseImage from '../element/BaseImage.vue';
 import Paragraph from '../element/Paragraph.vue';
-import blogImage from '/assets/card/feey-ZQbpzgoWYrA-unsplash.jpg'
+import Title from '../element/Title.vue';
 </script>
 
 <template>
     <div class="blog-card">
         <div class="relative card-image">
-            <BaseImage :image="blogImage" />
+            <BaseImage image="/assets/card/feey-ZQbpzgoWYrA-unsplash.jpg" />
         </div>
         <div>
-            <h5>5 Simple Ways to Live a Greener Life</h5>
+            <Title tag="h5">5 Simple Ways to Live a Greener Life</Title>
+            <!-- <h5></h5> -->
             <Paragraph>
                 Discover easy, everyday changes you can make to reduce your carbon footprint and live
                 sustainably...

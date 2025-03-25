@@ -2,7 +2,7 @@
 import BaseButton from '../element/BaseButton.vue';
 import InputField from '../element/InputField.vue';
 import Paragraph from '../element/Paragraph.vue';
-import Textarea from '../element/Textarea.vue';
+import Textarea from '../element/BaseTextArea.vue';
 import Title from '../element/Title.vue';
 import Form from '../widgets/Form.vue';
 </script>

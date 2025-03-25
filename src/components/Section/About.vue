@@ -2,10 +2,6 @@
 import BaseImage from '../element/BaseImage.vue';
 import Paragraph from '../element/Paragraph.vue';
 import Title from '../element/Title.vue';
-import imagePath from '/assets/card/feey-ZQbpzgoWYrA-unsplash.jpg'
-import image1 from '/assets/card/feey-gTMnUAkPvlQ-unsplash.jpg'
-import image2 from '/assets/card/xinyi-zhang-ohTfLJNdbuA-unsplash.jpg'
-import image3 from '/assets/card/stephanie-harvey-T0inbt7nRME-unsplash.jpg'
 </script>
 
 <template>
@@ -13,7 +9,7 @@ import image3 from '/assets/card/stephanie-harvey-T0inbt7nRME-unsplash.jpg'
         <div class="content large-2 gap-3 align-center justify-center">
             <!-- img container  -->
             <div class="left-image">
-                <BaseImage :image="imagePath"/>
+                <BaseImage image="/assets/card/feey-ZQbpzgoWYrA-unsplash.jpg"/>
             </div>
             <!-- content container  -->
             <div>
@@ -32,13 +28,13 @@ import image3 from '/assets/card/stephanie-harvey-T0inbt7nRME-unsplash.jpg'
                 </Paragraph>
                 <div class="all-3 gap-1">
                     <div class="image">
-                        <BaseImage :image="image1"/>
+                        <BaseImage image="/assets/card/feey-gTMnUAkPvlQ-unsplash.jpg"/>
                     </div>
                     <div class="image">
-                        <BaseImage :image="image2"/>
+                        <BaseImage image="/assets/card/xinyi-zhang-ohTfLJNdbuA-unsplash.jpg"/>
                     </div>
                     <div class="image">
-                        <BaseImage :image="image3"/>
+                        <BaseImage image="/assets/card/stephanie-harvey-T0inbt7nRME-unsplash.jpg"/>
                     </div>
                 </div>
             </div>

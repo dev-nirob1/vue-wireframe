@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import Title from '../element/Title.vue';
 import TestimonialsCard from '../widgets/TestimonialsCard.vue';
 

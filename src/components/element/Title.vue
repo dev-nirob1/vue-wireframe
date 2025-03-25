@@ -1,10 +1,15 @@
+<script setup>
+const props = defineProps({
+    tag: {
+        type: String,
+        default: 'h3'
+    }
+})
+</script>
+
 <template>
-    <h3 class="title">
+    <tag class="title">
         <slot></slot>
-    </h3>
+    </tag>
 </template>
-<style scoped>
-.title{
-    font-size: 3rem;
-}
-</style>
+<style scoped></style>
