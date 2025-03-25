@@ -1,3 +1,8 @@
+<script setup>
+import Paragraph from '../element/Paragraph.vue';
+
+</script>
+
 <template>
     <div class="impact-item">
         <i class="fas fa-tree"></i>
