@@ -16,9 +16,18 @@ import authorImage from '/assets/card/author.jpg'
             </div>
         </div>
         <div class="flex">
-            <i class="fa-solid fa-quote-left fa-2x"></i>
+            <!-- <i class="fa-solid fa-quote-left fa-2x"></i>
             <Paragraph>
                 Precious ipsum dolor sit amet
+                consectetur adipisicing elit, sed dos
+                mod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad min
+                veniam, quis nostrud Precious ips
+                um dolor sit amet, consecte
+            </Paragraph> -->
+            
+            <Paragraph>
+                <i class="fa-solid fa-quote-left fa-2x"></i> Precious ipsum dolor sit amet
                 consectetur adipisicing elit, sed dos
                 mod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad min
