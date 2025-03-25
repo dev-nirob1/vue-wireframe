@@ -128,6 +128,21 @@ a {
     text-align: right;
 }
 
+.card-image {
+    height: 280px;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card-image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
 /* flex  */
 .flex {
     display: flex;
