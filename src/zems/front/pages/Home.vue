@@ -1,6 +1,7 @@
 <script setup>
 import About from '@/components/Section/About.vue';
 import Banner from '@/components/Section/Banner.vue';
+import Impact from '@/components/Section/Impact.vue';
 
 </script>
 
@@ -8,5 +9,6 @@ import Banner from '@/components/Section/Banner.vue';
     <main>
         <Banner />
         <About></About>
+        <Impact/>
     </main>
 </template>
