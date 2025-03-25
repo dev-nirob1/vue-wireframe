@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BaseButton from '../element/BaseButton.vue';
+import InputField from '../element/InputField.vue';
 import Paragraph from '../element/Paragraph.vue';
 import Title from '../element/Title.vue';
 
@@ -21,8 +22,7 @@ import Title from '../element/Title.vue';
                     </Paragraph>
                 </div>
                 <div class="flex">
-                    <label for="email"></label>
-                    <input type="Email" placeholder="Please Enter Your Email">
+                    <InputField />
                     <BaseButton>
                         Subscribe
                     </BaseButton>
