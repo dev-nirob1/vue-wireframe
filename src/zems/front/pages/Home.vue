@@ -5,6 +5,7 @@ import Blogs from '@/components/Section/Blogs.vue';
 import Featured from '@/components/Section/Featured.vue';
 import Gallery from '@/components/Section/Gallery.vue';
 import Impact from '@/components/Section/Impact.vue';
+import Newsletter from '@/components/Section/Newsletter.vue';
 import Pricing from '@/components/Section/Pricing.vue';
 import Testimonials from '@/components/Section/Testimonials.vue';
 
@@ -19,6 +20,7 @@ import Testimonials from '@/components/Section/Testimonials.vue';
         <Gallery />
         <Pricing />
         <Testimonials />
-        <Blogs></Blogs>
+        <Blogs/>
+        <Newsletter/>
     </main>
 </template>
